@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Designinfra</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+    --muted: #5f6368;
+    --accent: #1a73e8;
+    --border: #e8eaed;
+      }
+  * { box-sizing: border-box; }
+  body {
+        margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+}
+  header {
+        padding: 48px 24px 24px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+  .logo {
+        width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1a73e8, #34a853);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+  h1 {
+        font-size: 28px;
+    margin: 0 0 8px;
+}
+  .tagline {
+        color: var(--muted);
+    font-size: 16px;
+    margin: 0;
+  }
+  main {
+        max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
+}
+  section {
+        margin-top: 40px;
+}
+  h2 {
+        font-size: 18px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+  p {
+        color: #333;
+}
+  ul {
+        padding-left: 20px;
+    color: #333;
+}
+  li {
+        margin-bottom: 8px;
+}
+  footer {
+        max-width: 720px;
+    margin: 0 auto;
+    padding: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+}
+  a {
+        color: var(--accent);
+    text-decoration: none;
+}
+  a:hover {
+        text-decoration: underline;
+}
+  .links {
+    margin-top: 12px;
+  }
+  .links a {
+        margin-right: 16px;
+}
+</style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">D</div>
+      <h1>Designinfra</h1>
+      <p class="tagline">A personal YouTube Shorts automation tool.</p>
+    </header>
+    <main>
+      <section>
+        <h2>What this app does</h2>
+      <p>
+        Designinfra is a personal-use automation tool that uploads short-form
+          videos (YouTube Shorts) to a single, authorised YouTube channel on
+        behalf of its owner. It uses the YouTube Data API to publish
+        pre-produced video files directly to the connected channel, removing
+        the need for manual uploads.
+      </p>
+    </section>
+    <section>
+      <h2>How it works</h2>
+      <ul>
+        <li>The app connects to one YouTube channel via Google OAuth, authorised directly by the channel owner.</li>
+        <li>It requests only the permission needed to manage and upload videos to that channel.</li>
+        <li>No content, credentials, or channel data is shared with any third party.</li>
+        <li>The app is used solely by its developer for personal content publishing workflows.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Questions about this app or its use of your Google Account data can be
+        sent to <a href="mailto:vickykenin@gmail.com">vickykenin@gmail.com</a>.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+    <p>&copy; 2026 Designinfra. All rights reserved.</p>
+  </footer>
+</body>
+</html>
